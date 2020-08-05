@@ -177,6 +177,9 @@ a{
         }
 
 @media all and (max-width: 1120px){
+	.margen-interno{
+    padding: 0px 0px 0px 10px;
+	}
     .section{
         flex-direction: column;
     }
@@ -220,4 +223,8 @@ a{
     	display: flex;
         flex-direction: column;
     }
+    	.publicidad{
+    		width: 320px;
+    		padding-top: 10px;
+    	}
 }
